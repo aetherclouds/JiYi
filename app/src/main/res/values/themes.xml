@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.JiYi" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:actionMenuTextColor">@color/black</item>
+        <item name="actionMenuTextColor">@color/black</item>
+
+        <item name="android:windowBackground">@color/purple_500</item>
+        <!--        <item name="android:navigationBarColor">@color/bgSecondary</item>-->
+<!--        <item name="android:windowDrawsSystemBarBackgrounds">false</item>-->
+    </style>
+
+<!--    <style name="MyToolbarStyle" parent="Widget.AppCompat.Toolbar">-->
+<!--        <item name="buttonBarButtonStyle">@color/black</item>-->
+<!--        <item name="android:actionOverflowButtonStyle">@color/black</item>-->
+<!--        <item name="android:textColorSecondary">@color/black</item>-->
+<!--        <item name="android:textColorPrimary">@color/purple_500</item>-->
+<!--    </style>-->
+
+    <style name="CustomToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+<!--        <item name="android:textColorPrimary">@color/black</item>-->
+        <!-- make menu items text color black -->
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
